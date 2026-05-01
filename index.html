@@ -13,14 +13,21 @@
     }
 
     header {
-      background-color: #2e7d32;
+      background-color: #2f3a1f;
       color: white;
-      padding: 25px;
+      padding: 20px;
       text-align: center;
     }
 
+    .logo {
+      max-width: 120px;
+      background: white;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
     nav {
-      background-color: #1b5e20;
+      background-color: #9a874a;
       padding: 12px;
       text-align: center;
     }
@@ -29,6 +36,30 @@
       color: white;
       margin: 0 12px;
       text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      position: relative;
+    }
+
+    .hero img {
+      width: 100%;
+      max-height: 375px;
+      object-fit: cover;
+      display: block;
+      border-radius: 0;
+    }
+
+    .hero-text {
+      position: absolute;
+      bottom: 25px;
+      left: 25px;
+      background: rgba(0, 0, 0, 0.55);
+      color: white;
+      padding: 15px 20px;
+      border-radius: 8px;
+      font-size: 28px;
       font-weight: bold;
     }
 
@@ -60,32 +91,32 @@
       text-align: center;
     }
 
+    .staff-card img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+    }
+
+    .mascot {
+      text-align: center;
+    }
+
+    .mascot img {
+      max-width: 420px;
+      background: white;
+    }
+
     img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
     }
 
-    .placeholder {
-      background: #ddd;
-      padding: 50px 20px;
-      border-radius: 8px;
-      font-weight: bold;
-      color: #555;
-    }
-
     footer {
-      background-color: #2e7d32;
+      background-color: #2f3a1f;
       color: white;
       text-align: center;
       padding: 15px;
-    }
-
-    .hero img {
-      width: 100%;
-      max-height: 350px;
-      object-fit: cover;
-      display: block;
     }
   </style>
 </head>
@@ -93,6 +124,7 @@
 <body>
 
 <header>
+  <img class="logo" src="CougarLogo.jpg" alt="Countryside Cougars Logo">
   <h1>Countryside Elementary School</h1>
   <p>Home of the Countryside Cougars</p>
 </header>
@@ -107,9 +139,10 @@
 </nav>
 
 <div class="hero">
-  <img src="school.jepg" alt="Countryside Elementary School Building">
+  <img src="School_Front.jpg" alt="Countryside Elementary School Building">
+  <div class="hero-text">Welcome to Countryside Elementary</div>
 </div>
-  
+
 <div class="container">
 
   <div class="section">
@@ -126,19 +159,21 @@
     <div class="staff">
       <div class="staff-card">
         <h3>Principal</h3>
-        <div class="placeholder">Photo of Shelly Rogers</div>
+        <img src="school.jpeg" alt="Principal Shelly Rogers">
         <p><strong>Shelly Rogers</strong></p>
+        <p>Principal</p>
       </div>
 
       <div class="staff-card">
         <h3>Assistant Principal</h3>
-        <div class="placeholder">Photo of Fanny Fairlane</div>
+        <img src="school.jpeg" alt="Assistant Principal Fanny Fairlane">
         <p><strong>Fanny Fairlane</strong></p>
+        <p>Assistant Principal</p>
       </div>
     </div>
   </div>
 
-  <div class="section">
+  <div class="section mascot">
     <h2>Our Mascot</h2>
     <img src="CougarLogo.jpg" alt="Countryside Cougars Mascot">
     <p>
@@ -147,11 +182,11 @@
   </div>
 
   <div class="section">
-    <h2>Welcome to Countryside Elementary</h2>
+    <h2>About Countryside Elementary</h2>
     <p>
       Countryside Elementary School serves students from Pre-K through 5th grade.
       Our goal is to provide a safe, welcoming, and positive learning environment
-      for every student.
+      where every student can grow, learn, and succeed.
     </p>
   </div>
 
