@@ -1,115 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Class Website</title>
+  <meta charset="UTF-8">
+  <title>Countryside Elementary School</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #222;
+    }
 
-        header {
-            background-color: #333;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
 
-        nav {
-            background-color: #555;
-            padding: 10px;
-            text-align: center;
-        }
+    nav {
+      background-color: #1b5e20;
+      padding: 12px;
+      text-align: center;
+    }
 
-        nav a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-        }
+    nav a {
+      color: white;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-        .container {
-            padding: 20px;
-        }
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
 
-        .section {
-            background: white;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-        }
+    .section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
 
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
+    .staff {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
 
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
+    .staff-card {
+      flex: 1;
+      min-width: 250px;
+      background: #f9f9f9;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .placeholder {
+      background: #ddd;
+      padding: 50px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      color: #555;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
 </head>
 
 <body>
 
-<!-- ===== HEADER ===== -->
 <header>
-    <h1>My Website Title</h1>
-    <p>Subtitle or description goes here</p>
+  <h1>Countryside Elementary School</h1>
+  <p>Home of the Countryside Cougars</p>
 </header>
 
-<!-- ===== NAVIGATION (optional links) ===== -->
 <nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Gallery</a>
-    <a href="#">Contact</a>
+  <a href="#">School News</a>
+  <a href="#">School Calendar</a>
+  <a href="#">Parent Handbook</a>
+  <a href="#">Annual Parent Survey</a>
+  <a href="#">Lunch Menu</a>
+  <a href="#">Contact Us Form</a>
 </nav>
 
 <div class="container">
 
-    <!-- ===== SECTION 1 ===== -->
-    <div class="section">
-        <h2>About Me</h2>
-        <p>
-            Replace this text with your own content. Talk about yourself,
-            your project, or whatever the assignment requires.
-        </p>
+  <div class="section">
+    <h2>School Information</h2>
+    <p><strong>Address:</strong> 111 S. 11th St, Anywhere, USA</p>
+    <p><strong>Phone:</strong> (717) 717-7777</p>
+    <p><strong>Grades:</strong> PK–5th Grade</p>
+    <p><strong>Total Students:</strong> 355</p>
+  </div>
+
+  <div class="section">
+    <h2>School Leadership</h2>
+
+    <div class="staff">
+      <div class="staff-card">
+        <h3>Principal</h3>
+        <div class="placeholder">Photo of Shelly Rogers</div>
+        <p><strong>Shelly Rogers</strong></p>
+      </div>
+
+      <div class="staff-card">
+        <h3>Assistant Principal</h3>
+        <div class="placeholder">Photo of Fanny Fairlane</div>
+        <p><strong>Fanny Fairlane</strong></p>
+      </div>
     </div>
+  </div>
 
-    <!-- ===== SECTION 2 (WITH IMAGE) ===== -->
-    <div class="section">
-        <h2>My Photo</h2>
+  <div class="section">
+    <h2>Our Mascot</h2>
+    <div class="placeholder">Countryside Cougars Mascot Photo</div>
+    <p>
+      The Countryside Cougars represent school pride, teamwork, and excellence.
+    </p>
+  </div>
 
-        <!-- HOW TO ADD IMAGE:
-             Replace "image.jpg" with your file name
-             Make sure the image is in the SAME folder as this HTML file -->
-        <img src="image.jpg" alt="My Photo">
-
-        <p>
-            Add a caption or description for your image here.
-        </p>
-    </div>
-
-    <!-- ===== SECTION 3 ===== -->
-    <div class="section">
-        <h2>My Work</h2>
-        <p>
-            Add more sections like this if needed.
-        </p>
-    </div>
+  <div class="section">
+    <h2>Welcome to Countryside Elementary</h2>
+    <p>
+      Countryside Elementary School serves students from Pre-K through 5th grade.
+      Our goal is to provide a safe, welcoming, and positive learning environment
+      for every student.
+    </p>
+  </div>
 
 </div>
 
-<!-- ===== FOOTER ===== -->
 <footer>
-    <p>© 2026 My Name</p>
+  <p>© 2026 Countryside Elementary School</p>
 </footer>
 
 </body>
