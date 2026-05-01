@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+header {
+  background-color: #2f3a1f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 120px;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #9a874a;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 0;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  max-height: 375px;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  background: rgba(0, 0, 0, 0.55);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.staff,
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.staff-card,
+.card {
+  flex: 1;
+  min-width: 250px;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.staff-photo-placeholder {
+  background: #ddd;
+  padding: 60px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.mascot {
+  text-align: center;
+}
+
+.mascot img {
+  max-width: 420px;
+  background: white;
+}
+
+.feature-image {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #eee;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 12px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 15px;
+  background-color: #2f3a1f;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #9a874a;
+}
+
+footer {
+  background-color: #2f3a1f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
